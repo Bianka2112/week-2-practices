@@ -15,8 +15,12 @@ hr {
 /* Practice: Navbar */
 
 .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 10px;
   background: white;
+  
 }
 
 .logo {
@@ -26,9 +30,18 @@ hr {
 .nav-links a {
   text-decoration: none;
   color: #0025FF;
+  
+  
 }
 
 /* Practice: Equal-width cards */
+
+.card-container {
+  display:flex;
+  justify-content: center;
+  flex: stretch;
+  flex: 2;
+}
 
 .card {
   background: lightblue;
@@ -39,6 +52,7 @@ hr {
 /* Codealong: Plan and code a card */
 .flex-container {
   display: flex;
+ 
 }
 
 .card-image {
@@ -51,4 +65,39 @@ article {
   height: 500px;
   background: white;
   color: rgb(0, 24, 164);
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  border-color: blue;
+  border-style: solid;
+  border-width: 18px 18px 2px 2px;
+}
+
+.top-text p {
+  margin: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.preamble {
+  font-weight: 500px; font-size: 20px;
+}
+
+.button {
+  color: white;
+  background: blue;
+  padding: 15px 25px;
+  border-radius: 40px;
+  text-decoration: none;
+  text-decoration: dashed;
 }
